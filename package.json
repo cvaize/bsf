@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cvaize/thlinkify.git"
+    "url": "git+https://github.com/cvaize/bsf.git"
   },
   "keywords": [
     "gulp",
@@ -19,9 +19,9 @@
     "sass"
   ],
   "bugs": {
-    "url": "https://github.com/cvaize/thlinkify/issues"
+    "url": "https://github.com/cvaize/bsf/issues"
   },
-  "homepage": "https://github.com/cvaize/thlinkify#readme",
+  "homepage": "https://github.com/cvaize/bsf#readme",
   "author": "Dmitry Orlov",
   "license": "ISC",
   "dependencies": {
