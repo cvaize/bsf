@@ -16,7 +16,7 @@ module.exports = function (watchPaths, combine, settings){
                     importer: magicImporter(),
                     includePaths: ['node_modules'],
                 }, function(err, result) {
-                    cb(result.stats.includedFiles.filter(includedFile => !includedFile.includes('node_modules') && !includedFile.includes(filepath)))
+                    cb(!result ? [] : result.stats.includedFiles.filter(includedFile => !includedFile.includes('node_modules') && !includedFile.includes(filepath)))
                 })
             }else{
                 cb([])
