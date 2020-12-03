@@ -1,6 +1,6 @@
 {
   "name": "bsf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tools for build frontend",
   "main": "src/index.js",
   "scripts": {
